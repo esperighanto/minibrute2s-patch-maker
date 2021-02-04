@@ -1,0 +1,58 @@
+input[type=range]{
+  border: none;
+  background: #f1f1f1;
+}
+
+/* .minibrute input[type=checkbox]{
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+} */
+
+.knob{
+  width: 45px;
+}
+
+.slider{
+  width: 115px;
+  transform: rotate(270deg);
+}
+
+.binary-switch{
+  width: 42px;
+  transform: rotate(270deg);
+}
+
+.ternary-switch{
+  width: 42px;
+  transform: rotate(270deg);
+}
+
+input[type=range]:focus{
+  outline:none;
+}
+
+.minibrute{
+  cursor: pointer;
+  position: relative;
+}
+
+.background-image{
+  min-height: 380px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.checkboxTesting{
+  height: 18px;
+  width: 18px;
+  background-color: #0000b0;
+  border-collapse: separate;
+  overflow: hidden;
+  perspective: 1px;
+  border-radius: 5px 20px 5px;
+}
